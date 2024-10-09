@@ -1,0 +1,116 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi",
+                                "How are you",
+                                "Is anyone there?",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, thanks for visiting",
+                                "Good to see you again",
+                                "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye"
+                        ],
+                        "responses": [
+                                "See you later, thanks for visiting",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ]
+                },
+                {
+                        "tag": "chatbot",
+                        "patterns": [
+                                "Who built this chatbot?",
+                                "Tell me about Chatbot",
+                                "What is this chatbot name?"
+                        ],
+                        "responses": [
+                                "Hi, I am Chatbot designed by Mayank.",
+                                "Thanks for asking. I am designed by Mayank Bajaj.",
+                                "I am a chatbot."
+                        ]
+                },
+                {
+                        "tag": "location",
+                        "patterns": [
+                                "What is your location?",
+                                "Where are you located?",
+                                "What is your address?"
+                        ],
+                        "responses": [
+                                "We are from World's largest Democracy India.",
+                                "You can visit India to meet us",
+                                "Thans for your Interest. I live in India."
+                        ]
+                },
+                {
+                        "tag": "connect",
+                        "patterns": [
+                                "Give me your social media accounts link",
+                                "Where can we connect",
+                                "How can i reach out to you?",
+                                "Is there any way we can connect"
+                        ],
+                        "responses": [
+                                "You can connect me on Linkedin or Github \n Linkedin - https://www.linkedin.com/in/mayank-bajaj/ \n Github - https://github.com/mayank8200",
+                                "You can visit https://mayank-bajaj.me"
+                        ]
+                },
+                {
+                        "tag": "movies",
+                        "patterns": [
+                                "Which is your favourite movie?",
+                                "Suggest me some movies",
+                                "Recommend movies"
+                        ],
+                        "responses": [
+                                "3 idiots",
+                                "Hera Pheri",
+                                "Lage Raho Munna Bhai",
+                                "OMG: Oh My God!",
+                                "PK",
+                                "Yeh Jawani hai Deewani",
+                                "Zindagi na Milegi Doobara",
+                                "Ludo"
+                        ]
+                },
+                {
+                        "tag": "about",
+                        "patterns": [
+                                "Who are you?",
+                                "Tell me about Yourself",
+                                "What is this?"
+                        ],
+                        "responses": [
+                                "Hi, I am Mayank. Nice to meet you. I made this chatbot for fun and practice.",
+                                "Thanks for asking. I am Mayank Bajaj, coder by profession but ML enthusiast by passion."
+                        ]
+                }
+               
+        ]
+}
